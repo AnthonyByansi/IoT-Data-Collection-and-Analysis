@@ -16,3 +16,6 @@ Before running the application, you will need to install the following software:
 
 * Node-RED
 * MQTT client (e.g. MQTT.fx)
+
+## Installing
+Clone the repository to your Raspberry Pi or computer:
