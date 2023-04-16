@@ -1,0 +1,54 @@
+[
+    {
+        "id": "3a07a1a1.15c8d",
+        "type": "mqtt in",
+        "z": "8ce2a54a.94af28",
+        "name": "Subscribe to Temperature",
+        "topic": "temperature",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "e8d42b60.59b7f",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "1a49f3c3.2d26c1"
+            ]
+        ]
+    },
+    {
+        "id": "1a49f3c3.2d26c1",
+        "type": "function",
+        "z": "8ce2a54a.94af28",
+        "name": "Convert to Fahrenheit",
+        "func": "var tempInCelsius = msg.payload;\nvar tempInFahrenheit = (tempInCelsius * 9/5) + 32;\nmsg.payload = tempInFahrenheit.toFixed(2);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [
+                "d04238c4.055e48"
+            ]
+        ]
+    },
+    {
+        "id": "d04238c4.055e48",
+        "type": "debug",
+        "z": "8ce2a54a.94af28",
+        "name": "Debug Temperature",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 120,
+        "wires": []
+    }
+]
