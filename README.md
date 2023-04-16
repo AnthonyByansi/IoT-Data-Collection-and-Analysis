@@ -52,7 +52,7 @@ To use AWS IoT, you will need to set up an AWS account and follow the steps in t
 
 ## Built With
 
-1. Node-RED - Flow-based programming tool for IoT
-2. MQTT - Lightweight communication protocol for IoT
-3. Mosquitto - Open-source MQTT broker
-4. AWS IoT - Cloud-based IoT platform
+1. [Node-RED](https://nodered.org/)- Flow-based programming tool for IoT
+2. [MQTT](https://mqtt.org/) - Lightweight communication protocol for IoT
+3. [Mosquitto](https://mosquitto.org/) - Open-source MQTT broker
+4. [AWS IoT](https://aws.amazon.com/iot/) - Cloud-based IoT platform
