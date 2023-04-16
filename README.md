@@ -35,3 +35,12 @@ npm install
 node-red
 ```
 4. Open a web browser and go to `http://localhost:1880` to access the Node-RED dashboard.
+
+## Usage
+1. Connect the temperature sensor and smart light bulb to the NodeMCU ESP8266 microcontroller and upload the code in the microcontroller folder to the `microcontroller`.
+
+2. Configure the MQTT client to connect to the Mosquitto broker on the Raspberry Pi or computer.
+
+3. Publish a message to the `temperature` topic using the MQTT client to simulate temperature data.
+
+4. The Node-RED dashboard should display the temperature data and allow you to perform actions on the smart light bulb based on the data.
