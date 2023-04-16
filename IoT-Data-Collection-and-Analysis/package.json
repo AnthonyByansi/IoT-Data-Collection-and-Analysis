@@ -1,0 +1,22 @@
+{
+    "name": "temperature-sensor-light-control",
+    "version": "1.0.0",
+    "description": "An IoT application that reads temperature and humidity data from a DHT11 sensor and controls a light based on a photoresistor's readings.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "IoT",
+      "temperature",
+      "humidity",
+      "light",
+      "MQTT",
+      "Node-RED",
+      "AWS IoT"
+    ],
+    "dependencies": {
+      "mqtt": "^4.2.7"
+    }
+  }
+  
