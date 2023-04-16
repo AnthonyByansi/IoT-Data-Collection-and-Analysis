@@ -29,3 +29,9 @@ cd IoT-Data-Collection-and-Analysis
 npm install
 
 ```
+
+3. Start Node-RED:
+```bash 
+node-red
+```
+
