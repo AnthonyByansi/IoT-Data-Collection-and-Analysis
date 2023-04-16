@@ -18,4 +18,8 @@ Before running the application, you will need to install the following software:
 * MQTT client (e.g. MQTT.fx)
 
 ## Installing
-Clone the repository to your Raspberry Pi or computer: `git clone https://github.com/AnthonyByansi/IoT-Data-Collection-and-Analysis.git`
+Clone the repository to your Raspberry Pi or computer: 
+```bash
+https://github.com/AnthonyByansi/IoT-Data-Collection-and-Analysis.git
+
+```
