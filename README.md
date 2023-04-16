@@ -24,3 +24,8 @@ git clone https://github.com/AnthonyByansi/IoT-Data-Collection-and-Analysis.git
 
 ```
 2. Install the required Node-RED packages:
+```bash
+cd IoT-Data-Collection-and-Analysis
+npm install
+
+```
