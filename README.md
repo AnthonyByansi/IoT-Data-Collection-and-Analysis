@@ -44,3 +44,8 @@ node-red
 3. Publish a message to the `temperature` topic using the MQTT client to simulate temperature data.
 
 4. The Node-RED dashboard should display the temperature data and allow you to perform actions on the smart light bulb based on the data.
+
+
+## AWS IoT
+
+To use AWS IoT, you will need to set up an AWS account and follow the steps in the AWS IoT Getting Started guide. Once set up, you can modify the Node-RED flows in this project to use AWS IoT instead of Mosquitto for message brokering and data analysis.
