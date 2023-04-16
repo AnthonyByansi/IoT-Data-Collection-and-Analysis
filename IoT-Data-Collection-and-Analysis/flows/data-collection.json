@@ -1,0 +1,53 @@
+[
+    {
+        "id": "e8d42b60.59b7f",
+        "type": "mqtt-broker",
+        "name": "MQTT Broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "f7caab06.932b58",
+        "type": "dht22",
+        "z": "3a15f3c2.c0fddc",
+        "name": "Temperature Sensor",
+        "topic": "temperature",
+        "sensorType": "DHT22",
+        "pin": "4",
+        "humid": "true",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "21f91ef6.41a692"
+            ]
+        ]
+    },
+    {
+        "id": "21f91ef6.41a692",
+        "type": "mqtt out",
+        "z": "3a15f3c2.c0fddc",
+        "name": "Publish Temperature",
+        "topic": "temperature",
+        "qos": "",
+        "retain": "",
+        "broker": "e8d42b60.59b7f",
+        "x": 490,
+        "y": 100,
+        "wires": []
+    }
+]
