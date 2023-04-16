@@ -49,3 +49,10 @@ node-red
 ## AWS IoT
 
 To use AWS IoT, you will need to set up an AWS account and follow the steps in the AWS IoT Getting Started guide. Once set up, you can modify the Node-RED flows in this project to use AWS IoT instead of Mosquitto for message brokering and data analysis.
+
+## Built With
+
+1. Node-RED - Flow-based programming tool for IoT
+2. MQTT - Lightweight communication protocol for IoT
+3. Mosquitto - Open-source MQTT broker
+4. AWS IoT - Cloud-based IoT platform
