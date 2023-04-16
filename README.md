@@ -10,3 +10,9 @@ To get started with this project, you will need the following:
 * NodeMCU ESP8266 microcontroller
 * AWS account
 * MQTT broker (e.g. Mosquitto)
+
+## Prerequisites
+Before running the application, you will need to install the following software:
+
+* Node-RED
+* MQTT client (e.g. MQTT.fx)
