@@ -1,1 +1,1 @@
-# IoT-Data-Collection-and-Analysis
+IoT Data Collection and Analysis
