@@ -14,8 +14,8 @@ To get started with this project, you will need the following:
 ## Prerequisites
 Before running the application, you will need to install the following software:
 
-* Node-RED
-* MQTT client (e.g. MQTT.fx)
+* **Node-RED**
+* **MQTT client (e.g. MQTT.fx)**
 
 ## Installing
 1. Clone the repository to your Raspberry Pi or computer: 
