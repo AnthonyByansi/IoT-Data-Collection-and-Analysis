@@ -83,6 +83,7 @@ void publishTemperatureAndHumidity() {
   mqttClient.publish(HUMIDITY_TOPIC, String(humidity).c_str());
 }
 
+// This function controls the state of a light
 void controlLight() {
   if (lightLevel > 500) {
     mqttClient.publish(LIGHT_TOPIC, "off");
