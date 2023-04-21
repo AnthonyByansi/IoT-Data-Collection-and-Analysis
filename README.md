@@ -30,9 +30,7 @@ npm install
 
 ```
 
-3. Start Node-RED:
-
-`node-red`
+3. Start Node-RED: `node-red`
 
 4. Open a web browser and go to `http://localhost:1880` to access the Node-RED dashboard.
 
